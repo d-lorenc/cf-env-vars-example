@@ -1,0 +1,2 @@
+username: ${vcap.services.cf-env-vars-service.credentials.password}
+password: ${vcap.services.cf-env-vars-service.credentials.username}

@@ -1,0 +1,7 @@
+applications:
+- name: cf-env-vars-example
+  instances: 1
+  buildpack: java_buildpack
+  path: ./build/libs/cf-env-vars-example-0.0.1-SNAPSHOT.jar
+  services:
+    - cf-env-vars-service
